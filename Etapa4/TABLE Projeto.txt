@@ -1,0 +1,8 @@
+CREATE TABLE Projeto (
+    faixa_etaria INT,
+    nome VARCHAR(50),
+    dt_lancamento DATE,
+    genero VARCHAR(50)
+);
+
+INSERT INTO Projeto (faixa_etaria, nome, dt_lancamento, genero) VALUES (18, 'Jogo de Dados', '2022-12-21', 'Acao');

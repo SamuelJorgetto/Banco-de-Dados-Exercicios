@@ -1,0 +1,8 @@
+CREATE TABLE Elenco (
+    nome VARCHAR(20),
+    dt_nascimento DATE,
+    nacionalidade VARCHAR(20)
+);
+
+INSERT INTO Elenco (nome, dt_nascimento, nacionalidade)
+VALUES ('Pedro', '2002-04-24', 'Brasileiro');
